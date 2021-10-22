@@ -1,0 +1,115 @@
+
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.styled-table thead tr {
+    background-color: #ff0000d8;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 12px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #ff0000d8;
+
+}
+body {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 22px;
+        background: #e2001a;
+        padding-top: 3vh;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .logo {
+        margin-bottom: 125px;
+      }
+	  h1 {
+		padding-top: 5vh;  
+	  }
+	  .blob {
+        background: rgba(51, 217, 178, 1);
+        box-shadow: 0 0 0 0 rgba(51, 217, 178, 1);
+        animation: pulse-green 2s infinite;
+        border-radius: 50%;
+	    margin: 1px;
+	    height: 25px;
+	    width: 25px;
+      }
+
+      @keyframes pulse-green {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(51, 217, 178, 0.7);
+        }
+  
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(51, 217, 178, 0);
+        }
+  
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(51, 217, 178, 0);
+        }
+      }
+      .blob-orange {
+        background: rgba(255, 121, 63, 1);
+        box-shadow: 0 0 0 0 rgba(255, 121, 63, 1);
+        animation: pulse-orange 2s infinite;
+	    margin: 1px;
+	    height: 25px;
+	    width: 25px;
+      }
+
+      @keyframes pulse-orange {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(255, 121, 63, 0.7);
+        }
+  
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 10px rgba(255, 121, 63, 0);
+        }
+  
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(255, 121, 63, 0);
+        }
+      }
+
+      h1,h4 {
+	    text-align:center;
+	    padding-bottom:10px;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:10%;
+      }
